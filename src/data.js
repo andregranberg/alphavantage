@@ -29,7 +29,7 @@ var elements;
 
 export default class AlphaVantage extends React.Component {
   state = {
-    persons: []
+    elements: []
   }
 
   componentDidMount() {
@@ -53,23 +53,23 @@ export default class AlphaVantage extends React.Component {
                     previous_close: previous_close, change: change, change_percentage: change_percentage}
         
         const persons = elements;
-        this.setState({ persons });
+        this.setState({ elements });
       })
   }
 
   render() {
     return (
       <ul>
-        <li><b>symbol:</b> { this.state.persons.symbol}</li>
-        <li><b>open:</b> { this.state.persons.open}</li>
-        <li><b>high:</b> { this.state.persons.high}</li>
-        <li><b>low:</b> { this.state.persons.low}</li>
-        <li><b>high:</b> { this.state.persons.price}</li>
-        <li><b>price:</b> { this.state.persons.volume}</li>
-        <li><b>latest_trading_day:</b> { this.state.persons.latest_trading_day}</li>
-        <li><b>previous_close:</b> { this.state.persons.previous_close}</li>
-        <li><b>change:</b> { this.state.persons.change}</li>
-        <li><b>change_percentage:</b> { this.state.persons.change_percentage}</li>
+        <li><b>symbol:</b> { this.state.elements.symbol}</li>
+        <li><b>open:</b> { this.state.elements.open}</li>
+        <li><b>high:</b> { this.state.elements.high}</li>
+        <li><b>low:</b> { this.state.elements.low}</li>
+        <li><b>price:</b> { this.state.elements.price}</li>
+        <li><b>volume:</b> { this.state.elements.volume}</li>
+        <li><b>latest_trading_day:</b> { this.state.elements.latest_trading_day}</li>
+        <li><b>previous_close:</b> { this.state.elements.previous_close}</li>
+        <li><b>change:</b> { this.state.elements.change}</li>
+        <li><b>change_percentage:</b> { this.state.elements.change_percentage}</li>
       </ul>
     )
   }
