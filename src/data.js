@@ -52,7 +52,6 @@ export default class AlphaVantage extends React.Component {
         elements = {symbol: symbol, open: open, high: high, low: low, price: price, volume: volume, latest_trading_day: latest_trading_day,
                     previous_close: previous_close, change: change, change_percentage: change_percentage}
         
-        const persons = elements;
         this.setState({ elements });
       })
   }
