@@ -16,18 +16,18 @@ export default function NavbaraElement() {
     return (
         <div>
         <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Luftkvalitet-index</Navbar.Brand>
+        <Navbar.Brand href="#home">Alphavantage</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Hem</Nav.Link>
-            <NavDropdown title="Läs mer" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">o3</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">pm10</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">pm25</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">uvi</NavDropdown.Item>
+            <Nav.Link href="/">item</Nav.Link>
+            <NavDropdown title="dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">1</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">2</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">3</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">4</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Om</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">5</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

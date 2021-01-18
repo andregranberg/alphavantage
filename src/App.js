@@ -1,6 +1,6 @@
 import React from 'react';
 import NavbaraElement from './Navbar'
-import Experiment5 from './data'
+import AlphaVantage from './data'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,7 +9,7 @@ function App() {
     <>
     <NavbaraElement />
     <br></br>
-    <Experiment5 />
+    <AlphaVantage />
     </>
   )
 }
