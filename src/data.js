@@ -4,8 +4,8 @@ import axios from 'axios';
 
 let config = {
   headers: { 
-    'x-rapidapi-key': '65c02a4672mshf6ff63121b66145p1777adjsn6a125a20822d', 
-    'x-rapidapi-host': 'alpha-vantage.p.rapidapi.com'},
+    'x-rapidapi-key': 'key here', 
+    'x-rapidapi-host': 'host here'},
   params: {
     function: 'GLOBAL_QUOTE', symbol: 'TSLA'
   },
